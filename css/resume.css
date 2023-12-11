@@ -1,0 +1,185 @@
+/* 重置所有元素的默認樣式 */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: '宋體', 'Microsoft YaHei', 'SimHei', sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+/* 頁頭樣式 */
+header {
+    background-color: black; /* 背景顏色 */
+    height: 140px; /* 高度 */
+    width: 100%; /* 寬度 */
+    display: flex; /* 使用彈性盒模型 */
+    align-items: center; /* 垂直居中 */
+}
+
+header h1 {
+    color: white; /* 文字顏色 */
+    position: absolute; /* 絕對定位 */
+    left: 100px; /* 左邊距離 */
+    top: 0; /* 上邊距離 */
+    line-height: 140px; /* 行高 */
+    letter-spacing: 3px; /* 字母間距 */
+    font-size: 60px; /* 字體大小 */
+}
+
+header ul {
+    position: absolute; /* 絕對定位 */
+    right: 1vw; /* 右邊距離 */
+    top: 1; /* 上邊距離 */
+    line-height: 70px; /* 行高 */
+}
+
+header li {
+    display: inline; /* 行內元素顯示 */
+    margin-right: 3vw; /* 右邊距離 */
+}
+
+header a {
+    color: white; /* 文字顏色 */
+    text-decoration: none; /* 去除底線 */
+    font-size: 28px; /* 字體大小 */
+}
+
+header ul a:hover {
+    text-decoration: underline; /* 滑鼠懸停時添加底線 */
+    color: rgb(114, 203, 233); /* 文字顏色 */
+}
+
+body {
+    min-width: 500px;
+    background-color: green;
+}
+
+/* 頁腳樣式 */
+footer {
+    background-color: black; /* 背景顏色 */
+    color: gray; /* 文字顏色 */
+    height: 60px; /* 高度 */
+    display: flex; /* 使用彈性盒模型 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    font-size: 18px; /* 字體大小 */
+    position: fixed; /* 固定定位 */
+    bottom: 0; /* 底部位置 */
+    width: 100%; /* 寬度 */
+}
+
+/* 額外樣式 */
+.selfie {
+    margin-top: 20px; /* 上邊距離 */
+    border-radius: 50%; /* 圓角 */
+    max-width: 80%; /* 最大寬度為父元素的80% */
+    height: auto; /* 自動計算高度，保持原始比例 */
+    border: black solid 0.5px; /* 邊框樣式 */
+}
+
+
+.ff {
+    font-weight: bold; /* 字體粗細 */
+    font-size: 45px; /* 字體大小 */
+    background: transparent; /* 背景透明 */
+    border: none; /* 去除邊框 */
+}
+
+/* 區塊樣式 */
+section.a1 {
+    margin-top: 20px; /* 上邊距離 */
+}
+
+.b1 {
+    margin-top: 20px; /* 上邊距離 */
+    background-color: aqua; /* 背景顏色 */
+    width: 90%; /* 寬度 */
+    position: relative; /* 相對定位 */
+    top: 50%; /* 上邊距離 */
+    left: 50%; /* 左邊距離 */
+    transform: translate(-50%); /* 居中 */
+}
+
+/* 側邊欄樣式 */
+.leftside {
+    position: absolute; /* 絕對定位 */
+    height: 100%; /* 高度 */
+    list-style-type: none; /* 列表樣式類型 */
+    left: 0; /* 浮動在左邊 */
+    width: 25%; /* 寬度 */
+    background-color: red; /* 背景顏色 */
+    text-align: center; /* 文字居中 */
+}
+
+.rightside {
+    position: absolute; /* 絕對定位 */
+    height: 100%; /* 高度 */
+    list-style-type: none; /* 列表樣式類型 */
+    right: 0; /* 浮動在右邊 */
+    width: 75%; /* 寬度 */
+    background-color: green; /* 背景顏色 */
+    text-align: center; /* 文字居中 */
+}
+
+/* 附加樣式 */
+.menu {
+    text-decoration: underline; /* 文字下劃線 */
+    display: none; /* 隱藏區塊 */
+}
+
+/* 響應式設計樣式 */
+@media screen and (max-width: 1080px) {
+    header ul {
+        display: none; /* 隱藏列表 */
+    }
+
+    header h1 {
+        left: 50%; /* 左邊距離 */
+        transform: translateX(-50%); /* 水平居中 */
+    }
+
+    .news h2 {
+        font-size: 40px; /* 字體大小 */
+    }
+
+    .menu {
+        display: block; /* 顯示區塊 */
+        background-color: transparent; /* 背景透明 */
+        color: white; /* 文字顏色 */
+        font-size: 35px; /* 字體大小 */
+        position: absolute; /* 絕對定位 */
+        top: 15px; /* 上邊距離 */
+        left: 20px; /* 左邊距離 */
+        border: none; /* 去除邊框 */
+        text-decoration: none;
+        cursor: pointer; /* 滑鼠指標形狀 */
+    }
+}
+@media screen and (max-width: 570px) {
+
+    header ul {
+        display: none; /* 隱藏列表 */
+    }
+
+    header h1 {
+        left: 50%; /* 左邊距離 */
+        transform: translateX(-50%); /* 水平居中 */
+        font-size: 47px;
+    }
+
+    .news h2 {
+        font-size: 40px; /* 字體大小 */
+    }
+
+    .menu {
+        display: block; /* 顯示區塊 */
+        background-color: transparent; /* 背景透明 */
+        color: white; /* 文字顏色 */
+        font-size: 35px; /* 字體大小 */
+        position: absolute; /* 絕對定位 */
+        top: 15px; /* 上邊距離 */
+        left: 20px; /* 左邊距離 */
+        border: none; /* 去除邊框 */
+        text-decoration: none;
+        cursor: pointer; /* 滑鼠指標形狀 */
+    }
+}
