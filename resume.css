@@ -50,6 +50,7 @@ header ul a:hover {
 
 body {
     min-width: 500px;
+    background-color: green;
 }
 
 /* 頁腳樣式 */
