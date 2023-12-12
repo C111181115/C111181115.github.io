@@ -60,7 +60,8 @@ footer {
 }
 
 .menu {
-    display: none;
+    text-decoration: underline; /* 文字下劃線 */
+    display: none; /* 隱藏區塊 */
 }
 
 /* 響應式設計 */
