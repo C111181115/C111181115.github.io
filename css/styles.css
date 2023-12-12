@@ -92,33 +92,6 @@ footer {
         cursor: pointer; /* 滑鼠指標形狀 */
     }
 }
-@media screen and (max-width: 1080px) {
-    header ul {
-        display: none; /* 隱藏列表 */
-    }
-
-    header h1 {
-        left: 50%; /* 左邊距離 */
-        transform: translateX(-50%); /* 水平居中 */
-    }
-
-    .news h2 {
-        font-size: 40px; /* 字體大小 */
-    }
-
-    .menu {
-        display: block; /* 顯示區塊 */
-        background-color: transparent; /* 背景透明 */
-        color: white; /* 文字顏色 */
-        font-size: 35px; /* 字體大小 */
-        position: absolute; /* 絕對定位 */
-        top: 15px; /* 上邊距離 */
-        left: 20px; /* 左邊距離 */
-        border: none; /* 去除邊框 */
-        text-decoration: none;
-        cursor: pointer; /* 滑鼠指標形狀 */
-    }
-}
 @media screen and (max-width: 570px) {
 
     header ul {
