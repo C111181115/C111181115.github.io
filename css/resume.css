@@ -36,15 +36,27 @@ li .this {
     
 }
 
+.pic{
+    margin:7.5px;
+    margin-top: 20px; /* 上邊距離 */
+    border-radius: 50%; /* 圓角 */
+    max-width: 90%; /* 最大寬度為父元素的80% */
+    height: auto; /* 自動計算高度，保持原始比例 */
+    border: black solid 0.5px; /* 邊框樣式 */
+}
+
+.s1 {
+    color: white;
+}
+
 .mid-left {
     background-color: aqua;
     height: 85vh;
-    width: 25vw;
-   
+    width: 15vw;
 }
 
 .mid-right {
     background-color: aquamarine;
     height: 85vh;
-    width: 45vw;
+    width: 55vw;
 }
