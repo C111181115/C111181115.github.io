@@ -1,7 +1,9 @@
-body {
-    background-image: url('images/resume-background.jpg');
-    background-size: cover;
+main {
+    background-color: gray;
+    height: 85vh;
+    background-image: url("../images/1.jpg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* 額外樣式 */
@@ -27,17 +29,22 @@ li .this {
 }
 
 /* 區塊樣式 */
-section.a1 {
-    margin-top: 20px; /* 上邊距離 */
+.mid-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.b1 {
-    margin-top: 20px; /* 上邊距離 */
-    background-color: aqua; /* 背景顏色 */
-    width: 90%; /* 寬度 */
-    position: relative; /* 相對定位 */
-    top: 50%; /* 上邊距離 */
-    left: 50%; /* 左邊距離 */
-    transform: translate(-50%); /* 居中 */
+.mid-left {
+    background-color: aqua;
+    height: 85vh;
+    width: 25vw;
+   
 }
 
+.mid-right {
+    background-color: aquamarine;
+    height: 85vh;
+    width: 45vw;
+}
