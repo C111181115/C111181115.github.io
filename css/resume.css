@@ -4,6 +4,8 @@ main {
     background-image: url("../images/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    top:140px;
 }
 
 /* 額外樣式 */
@@ -37,7 +39,7 @@ li .this {
 }
 
 .pic{
-    margin:7.5px;
+    margin:1vw;
     margin-top: 20px; /* 上邊距離 */
     border-radius: 50%; /* 圓角 */
     max-width: 90%; /* 最大寬度為父元素的80% */
