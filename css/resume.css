@@ -1,11 +1,8 @@
-main {
-    background-color: gray;
-    height: 85vh;
-    background-image: url("../images/1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    top:140px;
+.res {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    object-fit: cover;
 }
 
 /* 額外樣式 */
@@ -36,15 +33,6 @@ li .this {
     justify-content: center;
     align-items: center;
     
-}
-
-.pic{
-    margin:1vw;
-    margin-top: 20px; /* 上邊距離 */
-    border-radius: 50%; /* 圓角 */
-    max-width: 90%; /* 最大寬度為父元素的80% */
-    height: auto; /* 自動計算高度，保持原始比例 */
-    border: black solid 0.5px; /* 邊框樣式 */
 }
 
 .s1 {
