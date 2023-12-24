@@ -119,13 +119,15 @@ header ul {
 }
 
 .b2-1 {
+    background-color: blueviolet;
     height: 10vh;
     width: auto;
     text-align: center;
 }
 
 .b2-2 {
-    margin: 50px 0px 50px 0px;
+    background-color: aqua;
+    margin: 10vh 0px 50px 0px;
 }
 
 .b2-3 {
@@ -174,6 +176,7 @@ header ul {
 }
 
 .b2-1-2 div {
+    background-color: red;
     position: relative;
     top: 10px;
     border: 1px solid black;

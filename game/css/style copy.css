@@ -1,0 +1,145 @@
+/* 全局樣式重置 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 頁首樣式 */
+header {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: #003060;
+    z-index: 1;
+}
+
+/* 頁首上半部分樣式 */
+.header-upper {
+    /* 上半部分樣式 */
+}
+
+/* 頁首標題區樣式 */
+.header-title {
+    /* 標題樣式 */
+}
+
+/* 頁首連結區樣式 */
+.header-links {
+    /* 連結樣式 */
+}
+
+/* 頁首下半部分樣式 */
+.header-lower {
+    /* 下半部分樣式 */
+}
+
+/* 頁首標誌樣式 */
+h1 {
+    line-height: 85px;
+    left: 30px;
+    color: white;
+    padding: 0px 0px 0px 50px;
+    background-image: url(../images/logo2.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: -9999px;
+}
+
+/* 頁首選單樣式 */
+.header-menu {
+    /* 選單樣式 */
+}
+
+/* 註冊與登入按鈕樣式 */
+.header-buttons {
+    /* 按鈕樣式 */
+}
+
+/* 主內容樣式 */
+main {
+    position: absolute;
+    top: 120px;
+    width: 100vw;
+    height: 100%;
+    background-color: #0080FF;
+}
+
+/* 主內容區塊1樣式 */
+.content-block1 {
+    /* 區塊1樣式 */
+}
+
+/* 主內容圖片樣式 */
+.content-image img {
+    height: 100px;
+}
+
+/* 主內容區塊2樣式 */
+.content-block2 {
+    margin: 0px 10vw 0px 10vw;
+}
+
+/* 區塊2-1樣式 */
+.block2-1 {
+    background-color: blueviolet;
+    height: 10vh;
+    width: auto;
+    text-align: center;
+}
+
+/* 區塊2-1內容樣式 */
+.block2-1-content h2 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.block2-1-content h3 {
+    color: white;
+    text-align: left;
+    font-size: 22px;
+}
+
+/* 區塊2-1其他內容樣式 */
+.block2-1-other {
+    display: flex;
+}
+
+/* 盒子樣式 */
+.box1,
+.box2,
+.box3,
+.box4 {
+    flex: 1;
+    /* 可添加額外樣式 */
+}
+
+/* 區塊2-2樣式 */
+.block2-2 {
+    background-color: aqua;
+    margin: 10vh 0px 50px 0px;
+}
+
+/* 區塊2-3樣式 */
+.block2-3,
+.block2-4,
+.block2-5 {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+/* 區塊2-3內容樣式 */
+.block2-3-1,
+.block2-4-1,
+.block2-5-1 {
+    margin-right: 20px;
+}
+
+/* 頁尾樣式 */
+footer {
+    width: 100vw;
+    height: 100px;
+    bottom: 0;
+    background-color: black;
+}
