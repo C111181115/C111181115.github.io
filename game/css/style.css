@@ -203,3 +203,9 @@ header ul {
 .box4 {
     flex:1;
 }
+
+.b1-1 img {
+    height: 750px;
+    width: 100vw;
+
+}
