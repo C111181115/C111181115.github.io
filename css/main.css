@@ -23,4 +23,9 @@
 .font{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.font a {
+    font-size: 30px;
 }
