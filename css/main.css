@@ -21,12 +21,13 @@
 }
 
 .font{
-    background-image: url(../images/happy.jpg);
+    background-image: url(../images/bhappy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 85vh;
     width: 85vw;
     position: relative;
@@ -35,15 +36,15 @@
 
 .font a {
     font-size: 50px;
+    color: white;
 }
 
 .bg {
-    margin-top: 50px;
     display: flex;
     height: 150px;
     width: 50vw;
     border-radius: 40px;
     align-items: center;
     justify-content: center;
-    border: 5px solid;
+    border: 5px white solid;
 }
